@@ -1,0 +1,157 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/*Navbar Starts*/
+.navbar li a{
+    color: #ed1c24;
+}
+
+.navbar li button{
+    background-color: #F66666;
+    border-color: #F66666;
+    color: #fff;
+}
+
+.navbar li .active{
+    color: #ffcb08 !important;
+}
+/*Navbar Ends*/
+/*Slider Starts*/
+.slider-indicator{
+    background-color: #ed1c24 !important;
+    height: 10px !important;
+    width: 10px !important;
+    border-radius: 50%;
+}
+/*Slider Ends*/
+/*Bikaner Legacy Banner Starts*/
+.legacy-banner{
+    background-image: url('../images/home/blur-legacy.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+
+.legacy-banner-text{
+    margin: 30px 0px !important;
+}
+
+.legacy-banner-text h1{
+    font-size: 65px !important;
+}
+/*Bikaner Legacy Banner Ends*/
+/*Sweet Box Banner Starts*/
+.sweet-box-banner{
+    background-image: url('../images/home/sweet-box.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-top: 60px !important;
+    padding-bottom: 60px !important;
+}
+
+.sweet-box-banner h2{
+    font-size: 5vw !important;
+}
+
+.sweet-box-banner strong{
+    font-size: 7vw !important;
+}
+/*Sweet Box Banner Ends*/
+/*Featured Items Container Starts*/
+.featured-items-container h2{
+    font-size: 6vh !important;
+}
+
+.featured-items-container button{
+    background-color: #F66666;
+    border-color: #F66666;
+    color: #fff;
+}
+/*Featured Items Container Ends*/
+/*Find Store Banner Starts*/
+.find-store-banner{
+    background-image: url('../images/home/find-store/01.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+/*Find Store Banner Ends*/
+
+/*About Us Page Section*/
+/*History Banner Starts*/
+.history-banner h2{
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 6vw !important;
+}
+/*History Banner Ends*/
+/*Product Gallery Page Starts*/
+
+/*Product Gallery Page Ends*/
+/*Bulk Order Page Starts*/
+
+.form-back{
+    background-image: url('../images/bulk-order/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+/*Bulk Order Page Ends*/
+/*Order Now Page Starts*/
+.order-back{
+    background-image: url('../images/order-now/background.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.8;
+}
+
+.toggle{
+    background-color: blue !important;
+    color: #fff !important;
+    border: blue 1px solid !important;
+}
+/*Order Now Page Ends*/
+
+/*Hover Effects Starts*/
+/*Navbar Hover Starts*/
+.navbar li a:hover{
+    color: #ffcb08;
+}
+
+.navbar li button:hover{
+    background-color: #F66666;
+    border-color: #F66666;
+    color: #ffcb08;
+}
+/*Navbar Hover Ends*/
+/*Bikaner Legacy button hover starts*/
+.legacy-banner-text a button:hover{
+    color: #fff !important;
+}
+/*Bikaner Legacy button hover ends*/
+/*Featured Items Container Button Hover Starts*/
+.featured-items-container button:hover{
+    background-color: #F66666;
+    border-color: #F66666;
+    color: #ffcb08;
+}
+/*Featured Items Container Button Hover Ends*/
+/*Product Gallery Buttons Hover Starts*/
+.product-button ul li a:hover{
+    color: #ffcb08 !important;
+}
+/*Product Gallery Buttons Hover Ends*/
+/*Common*/
+.form-button button:hover{
+    background-color: #ffcb08 !important;
+    border: #ffcb08 1px solid;
+}
+/*Hover Effects Ends*/
